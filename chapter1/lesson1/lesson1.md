@@ -38,3 +38,10 @@ cd home/hello-wold
 
 <!--{/message}-->
 <!--{/group}-->
+
+
+<!--{group}-->
+<!--{message type=UNAVALIBLE_TEST_TYPE|authorId=<%author1%>}-->
+Тесстовое сообщение с несуществующим типом
+<!--{/message}-->
+<!--{/group}-->
