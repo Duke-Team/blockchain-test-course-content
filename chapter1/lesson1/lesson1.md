@@ -45,3 +45,9 @@ cd home/hello-wold
 Тесстовое сообщение с несуществующим типом
 <!--{/message}-->
 <!--{/group}-->
+
+<!--{group}-->
+<!--{message type=CREATE_DROPLET|authorId=<%author1%>|nextButtonText=Go to Virtual Machine|courseDropletId=d065124d-6421-447e-b68e-2f57559a6664|skills=1,2}-->
+<p>По <code>SSH</code>, это Ubuntu машина, сейчас попрошу DevOps создать и скину адрес</p>
+<!--{/message}-->
+<!--{/group}-->
