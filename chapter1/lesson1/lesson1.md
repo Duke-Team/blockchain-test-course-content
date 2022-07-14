@@ -1,6 +1,7 @@
 <!--
 {variables}
-author1=0b7f425d-be9f-4fb3-996d-7d6c82f95246;
+author1=f3b699cd-2a08-4c2d-af78-d1b149e4297c;
+metamaskBasicSkill=2459994d-33fd-4bb3-8b90-858d874ee5ae;
 {/variables}
 -->
 <!--{group}-->
@@ -47,7 +48,13 @@ cd home/hello-wold
 <!--{/group}-->
 
 <!--{group}-->
-<!--{message type=CREATE_DROPLET|authorId=<%author1%>|nextButtonText=Go to Virtual Machine|courseDropletId=d065124d-6421-447e-b68e-2f57559a6664|skills=1,2}-->
+<!--{message type=UNAVALIBLE_TEST_TYPE|authorId=<%author1%>}-->
+Тесстовое сообщение с несуществующим типом
+<!--{/message}-->
+<!--{/group}-->
+
+<!--{group}-->
+<!--{message type=CREATE_DROPLET|authorId=<%author1%>|nextButtonText=Go to Virtual Machine|courseDropletId=d065124d-6421-447e-b68e-2f57559a6664|skills=<%metamaskBasicSkill%>}-->
 <p>По <code>SSH</code>, это Ubuntu машина, сейчас попрошу DevOps создать и скину адрес</p>
 <!--{/message}-->
 <!--{/group}-->
