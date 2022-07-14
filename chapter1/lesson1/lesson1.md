@@ -20,14 +20,14 @@ cd home/hello-wold
 
 // card input example
 <!--{group}-->
-<!--{message type=CARD_INPUT|skills=<%metamaskBasicSkill%>|successAnswer=success text|wrongAnswer=wrong text|difficulty=EASY|nextButtonText=next btn text|title=test title unused|answers=[1, 2, 3]}-->
+<!--{message type=CARD_INPUT|skills=[<%metamaskBasicSkill%>]|successAnswer=success text|wrongAnswer=wrong text|difficulty=EASY|nextButtonText=next btn text|title=test title unused|answers=[1, 2, 3]}-->
 test content message
 <!--{/message}-->
 <!--{/group}-->
 
 // quiz example
 <!--{group}-->
-<!--{message type=QUIZ|skills=<%metamaskBasicSkill%>|successAnswer=success text|wrongAnswer=wrong text|difficulty=EASY|nextButtonText=next btn text|title=test title unused|optionType=radio}-->
+<!--{message type=QUIZ|skills=[<%metamaskBasicSkill%>]|successAnswer=success text|wrongAnswer=wrong text|difficulty=EASY|nextButtonText=next btn text|title=test title unused|optionType=radio}-->
 test content message
 <!--{/message}-->
 <!--{/group}-->
@@ -72,7 +72,7 @@ test content message
 <!--{/group}-->
 
 <!--{group}-->
-<!--{message type=CREATE_DROPLET|authorId=<%author1%>|nextButtonText=Go to Virtual Machine|courseDropletId=d065124d-6421-447e-b68e-2f57559a6664|skills=<%metamaskBasicSkill%>}-->
+<!--{message type=CREATE_DROPLET|authorId=<%author1%>|nextButtonText=Go to Virtual Machine|courseDropletId=d065124d-6421-447e-b68e-2f57559a6664|skills=[<%metamaskBasicSkill%>]}-->
 <p>По <code>SSH</code>, это Ubuntu машина, сейчас попрошу DevOps создать и скину адрес</p>
 <!--{/message}-->
 <!--{/group}-->
