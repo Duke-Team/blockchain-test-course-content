@@ -28,7 +28,7 @@ test content message markdown?
 
 // card input example
 <!--{group}-->
-<!--{message type=GOAL_EVENT|targetGoalId=[<%testGoalId%>]}-->
+<!--{message type=GOAL_EVENT|targetGoalId=<%testGoalId%>}-->
 test content message
 <!--{/message}-->
 <!--{/group}-->
