@@ -18,6 +18,24 @@ cd home/hello-wold
 <!--{/message}-->
 <!--{/group}-->
 
+// card input example
+<!--{group}-->
+<!--{message type=CARD_INPUT|skills=<%metamaskBasicSkill%>|successAnswer=success text|wrongAnswer=wrong text|difficulty=EASY|nextButtonText=next btn text|title=test title unused|answers=[1, 2, 3]}-->
+test content message
+<!--{/message}-->
+<!--{/group}-->
+
+// quiz example
+<!--{group}-->
+<!--{message type=QUIZ|skills=<%metamaskBasicSkill%>|successAnswer=success text|wrongAnswer=wrong text|difficulty=EASY|nextButtonText=next btn text|title=test title unused|optionType=radio}-->
+test content message
+<!--{/message}-->
+<!--{/group}-->
+
+<!--{group}-->
+<!--{message type=DIALOG|authorId=<%author1%>}-->
+
+
 <!--{group}-->
 <!--{message type=DIALOG|authorId=<%author1%>}-->
 
