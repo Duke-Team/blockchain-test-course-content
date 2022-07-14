@@ -19,7 +19,7 @@ cd home/hello-wold
 <!--{/message}-->
 <!--{/group}-->
 
-// card input example
+// markdown example two
 <!--{group}-->
 <!--{message type=MARKDOWN}-->
 test content message markdown?
