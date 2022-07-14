@@ -2,6 +2,7 @@
 {variables}
 metamaskBasicSkill=2459994d-33fd-4bb3-8b90-858d874ee5ae;
 author1=f3b699cd-2a08-4c2d-af78-d1b149e4297c;
+testGoalId=9977d222-1961-45ed-bc0c-3aa0a1eaa649;
 {/variables}
 -->
 <!--{group}-->
@@ -20,6 +21,13 @@ cd home/hello-wold
 
 // card input example
 <!--{group}-->
+<!--{message type=GOAL_EVENT|targetGoalId=[<%testGoalId%>]}-->
+test content message
+<!--{/message}-->
+<!--{/group}-->
+
+// card input example
+<!--{group}-->
 <!--{message type=CARD_INPUT|skills=[<%metamaskBasicSkill%>]|successAnswer=success text|wrongAnswer=wrong text|difficulty=EASY|nextButtonText=next btn text|title=test title unused|answers=[1, 2, 3]}-->
 test content message
 <!--{/message}-->
@@ -32,10 +40,9 @@ test content message
 <!--{/message}-->
 <!--{/group}-->
 
-<!--{group}-->
+<!--{group closeGoal=<%testGoalId%>}-->
 <!--{message type=DIALOG|authorId=<%author1%>}-->
-
-
+test dialog empty
 <!--{group}-->
 <!--{message type=DIALOG|authorId=<%author1%>}-->
 
