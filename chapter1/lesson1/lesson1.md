@@ -21,6 +21,13 @@ cd home/hello-wold
 
 // card input example
 <!--{group}-->
+<!--{message type=MARKDOWN}-->
+test content message markdown?
+<!--{/message}-->
+<!--{/group}-->
+
+// card input example
+<!--{group}-->
 <!--{message type=GOAL_EVENT|targetGoalId=[<%testGoalId%>]}-->
 test content message
 <!--{/message}-->
