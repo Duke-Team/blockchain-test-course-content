@@ -5,7 +5,7 @@ author1=f3b699cd-2a08-4c2d-af78-d1b149e4297c;
 testGoalId=9977d222-1961-45ed-bc0c-3aa0a1eaa649;
 {/variables}
 -->
-<!--{group}-->
+<!--{group closeGoal=<%testGoalId%>}-->
 <!--{message type=MARKDOWN}-->
 
 # Урок 1. Собеседование
