@@ -42,8 +42,17 @@ test content message
 
 // quiz example
 <!--{group}-->
-<!--{message type=QUIZ|skills=[<%metamaskBasicSkill%>]|successAnswer=success text|wrongAnswer=wrong text|difficulty=EASY|nextButtonText=next btn text|title=test title unused|optionType=radio}-->
-test content message
+<!--{message type=QUIZ|skills=[<%metamaskBasicSkill%>]|successAnswer=success text|wrongAnswer=wrong text|difficulty=EASY|nextButtonText=next btn text|title=test title unused|optionType=radio|isInteractiveBlockPromotion=true}-->
+What is the array method for flipping an array (reverse)?
+
+<!--{option hint=Wrong option|isCorrect=false}-->
+.map
+<!--{/option}-->
+
+<!--{option hint=Right option!|isCorrect=true}-->
+.reverse()
+<!--{/option}-->
+
 <!--{/message}-->
 <!--{/group}-->
 
