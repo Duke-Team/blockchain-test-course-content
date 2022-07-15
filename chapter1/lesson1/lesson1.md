@@ -47,7 +47,7 @@ test content message
 <!--{/message}-->
 <!--{/group}-->
 
-<!--{group <%testGoalId%>}-->
+<!--{group closeGoal=<%testGoalId%>}-->
 <!--{message type=DIALOG|authorId=<%author1%>}-->
 test dialog empty
 <!--{group}-->
