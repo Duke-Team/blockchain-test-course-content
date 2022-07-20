@@ -19,6 +19,37 @@ cd home/hello-wold
 <!--{/message}-->
 <!--{/group}-->
 
+// assesment
+<!--{group}-->
+<!--{message type=ASSESMENT|totalSeconds=1800|nextButtonText=Check Result}-->
+Assesment Content
+
+
+
+// card input example in assesment
+<!--{insideMessage type=CARD_INPUT|skills=[<%metamaskBasicSkill%>]|successAnswer=success text|wrongAnswer=wrong text|difficulty=EASY|nextButtonText=next btn text|title=test title unused|answers=[1, 2, 3]}-->
+test content message
+<!--{/insideMessage}-->
+
+// quiz example in assesment
+<!--{insideMessage type=QUIZ|skills=[<%metamaskBasicSkill%>]|successAnswer=success text|wrongAnswer=wrong text|difficulty=EASY|nextButtonText=next btn text|title=test title unused|optionType=radio|isInteractiveBlockPromotion=true}-->
+What is the array method for flipping an array (reverse)?
+
+<!--{option hint=Wrong option|isCorrect=false}-->
+.map
+<!--{/option}-->
+
+<!--{option hint=Right option!|isCorrect=true}-->
+.reverse()
+<!--{/option}-->
+
+<!--{/insideMessage}-->
+
+
+<!--{/message}-->
+<!--{/group}-->
+
+
 // markdown example two
 <!--{group}-->
 <!--{message type=MARKDOWN}-->
