@@ -5,6 +5,17 @@ author1=f3b699cd-2a08-4c2d-af78-d1b149e4297c;
 testGoalId=9977d222-1961-45ed-bc0c-3aa0a1eaa649;
 {/variables}
 -->
+
+<!--{group}-->
+<!--{message type=DIALOG|authorId=<%author0%>}-->
+test dialog empty student with var
+<!--{group}-->
+
+<!--{message type=DIALOG|authorId=0}-->
+test dialog empty student with inline
+<!--{/message}-->
+<!--{/group}-->
+
 <!--{group}-->
 <!--{message type=MARKDOWN}-->
 
@@ -90,6 +101,9 @@ What is the array method for flipping an array (reverse)?
 <!--{group closeGoal=<%testGoalId%>}-->
 <!--{message type=DIALOG|authorId=<%author1%>}-->
 test dialog empty
+<!--{/message}-->
+<!--{/group}-->
+
 <!--{group}-->
 <!--{message type=DIALOG|authorId=<%author1%>}-->
 
