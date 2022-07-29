@@ -10,8 +10,10 @@ testGoalId=9977d222-1961-45ed-bc0c-3aa0a1eaa649;
 <!--{group}-->
 <!--{message type=DIALOG|authorId=<%author0%>}-->
 test dialog empty student with var
-<!--{group}-->
+<!--{/message}-->
+<!--{/group}-->
 
+<!--{group}-->
 <!--{message type=DIALOG|authorId=0}-->
 test dialog empty student with inline
 <!--{/message}-->
