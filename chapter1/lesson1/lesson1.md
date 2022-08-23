@@ -8,6 +8,12 @@ testGoalId=9977d222-1961-45ed-bc0c-3aa0a1eaa649;
 -->
 
 <!--{group}-->
+<!--{message type=WEB3_INTERACTIVE_INPUT|web3CommandType=CALL_FAUCET|successDescription=SUCCESS!|wrongAnswer=Error!}-->
+test cloud for call faucet, pls set eth ropsten address here
+<!--{/message}-->
+<!--{/group}-->
+
+<!--{group}-->
 <!--{message type=DIALOG|authorId=<%author0%>}-->
 test dialog empty student with var
 <!--{/message}-->
