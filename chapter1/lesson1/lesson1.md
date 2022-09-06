@@ -14,7 +14,7 @@ Need to connect your wallet here
 <!--{/group}-->
 
 <!--{group}-->
-<!--{message type=WEB3_INTERACTIVE_INPUT|web3CommandType=CALL_FAUCET|successDescription=SUCCESS!|wrongAnswer=Error!|isInteractiveBlockPromotion=true}-->
+<!--{message type=WEB3_INTERACTIVE_INPUT|web3CommandType=CALL_FAUCET|successAnswer=SUCCESS!|wrongAnswer=Error!|isInteractiveBlockPromotion=true}-->
 test cloud for call faucet, pls set eth ropsten address here
 <!--{/message}-->
 <!--{/group}-->
