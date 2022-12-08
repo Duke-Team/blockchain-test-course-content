@@ -6,9 +6,8 @@ author0=0;
 testGoalId=9977d222-1961-45ed-bc0c-3aa0a1eaa649;
 {/variables}
 -->
-
 <!--{group}-->
-<!--{message type=TRANSFER_WALLET|successAnswer=SUCCESS!|wrongAnswer=Error!|amount=0.005|walletAddress=0x68A133aeEb048c687c2e82cFb7ed7CFCD138591c}-->
+<!--{message type=TRANSFER_WALLET|successAnswer=SUCCESS!|wrongAnswer=Error!|amount=0.005|walletAddress=0x3d90da59de92bc7866dac6893e9098bac5f84c57|contractAddress=0x2953399124F0cBB46d2CbACD8A89cF0599974963|tokenId=0x47458101361003670569609766686752668268425632530788636318536610769914745061876}-->
 <!--{/message}-->
 <!--{/group}-->
 
