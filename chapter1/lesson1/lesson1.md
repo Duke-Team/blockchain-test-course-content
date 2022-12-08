@@ -8,7 +8,7 @@ testGoalId=9977d222-1961-45ed-bc0c-3aa0a1eaa649;
 -->
 
 <!--{group}-->
-<!--{message type=TRANSFER_WALLET|successAnswer=SUCCESS!|wrongAnswer=Error!|amount=0.005|walletAddress="0x68A133aeEb048c687c2e82cFb7ed7CFCD138591c"}-->
+<!--{message type=TRANSFER_WALLET|successAnswer=SUCCESS!|wrongAnswer=Error!|amount=0.005|walletAddress=0x68A133aeEb048c687c2e82cFb7ed7CFCD138591c}-->
 <!--{/message}-->
 <!--{/group}-->
 
